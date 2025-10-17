@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time>1970-01-01 12:00:00</entered_time>
+        <max_drift/>
+        <name>Invoice Marked Overdue</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month>1</run_month>
+        <run_period/>
+        <run_start/>
+        <run_time>1970-01-01 17:00:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth>1</run_weekinmonth>
+        <script><![CDATA[(function execute(inputs, outputs) {
+
+    var invoiceGR = new GlideRecord('x_1640694_vendor_0_invoice'); // Replace with your table name
+    invoiceGR.addQuery('due_date', '<', gs.nowDateTime());
+    invoiceGR.addQuery('status', '!=', 'Overdue');
+    invoiceGR.query();
+
+    var count = 0;
+
+    while (invoiceGR.next()) {
+        invoiceGR.status = 'Overdue';
+        invoiceGR.update();
+        count++;
+    }
+
+    gs.info('Scheduled Job: Marked ' + count + ' invoices as Overdue.');
+
+})();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 16:40:10</sys_created_on>
+        <sys_id>f6998cd783203210c98fe7d0deaad31c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Invoice Marked Overdue</sys_name>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name>sysauto_script_f6998cd783203210c98fe7d0deaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 17:16:11</sys_updated_on>
+        <time_zone>US/Eastern</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_1640694_vendor_0.invoice.due_soon</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>invoice.due_soon</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 17:19:55</sys_created_on>
+        <sys_id>3ec3505783603210c98fe7d0deaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1640694_vendor_0.invoice.due_soon</sys_name>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name>sysevent_register_3ec3505783603210c98fe7d0deaad353</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 17:19:55</sys_updated_on>
+        <table>x_1640694_vendor_0_invoice</table>
+    </sysevent_register>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9204fd1e83203210c98fe7d0deaad34a" label="Invoice" max_length="40" name="x_1640694_vendor_0_invoice" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Vendor" mandatory="true" max_length="32" name="vendor" reference="x_1640694_vendor_0_vendor" type="reference"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Paid" sequence="1" value="paid"/>
+                <element inactive_on_update="false" label="Overdue" sequence="2" value="overdue"/>
+            </choice>
+        </element>
+        <element label="Amount" mandatory="true" max_length="40" name="amount" type="currency"/>
+        <element display="true" label="Invoice Number" mandatory="true" max_length="40" name="invoice_number" type="string"/>
+        <element label="Invoice Date" mandatory="true" max_length="40" name="invoice_date" type="glide_date"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
+        <index name="index">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

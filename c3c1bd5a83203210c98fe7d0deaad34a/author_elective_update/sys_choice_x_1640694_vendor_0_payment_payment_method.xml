@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="payment_method" table="x_1640694_vendor_0_payment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>payment_method</element>
+            <name>x_1640694_vendor_0_payment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-14 21:55:46</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>payment_method</sys_name>
+            <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+            <sys_update_name>sys_choice_x_1640694_vendor_0_payment_payment_method</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-14 21:55:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bank Transfer</label>
+            <language>en</language>
+            <name>x_1640694_vendor_0_payment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-14 21:55:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-14 21:55:46</sys_updated_on>
+            <value>bank_transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credit Card</label>
+            <language>en</language>
+            <name>x_1640694_vendor_0_payment</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-14 21:55:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-14 21:55:46</sys_updated_on>
+            <value>credit_card</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cash</label>
+            <language>en</language>
+            <name>x_1640694_vendor_0_payment</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-14 21:55:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-14 21:55:46</sys_updated_on>
+            <value>cash</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

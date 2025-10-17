@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a35799e83203210c98fe7d0deaad353" label="Payment" max_length="40" name="x_1640694_vendor_0_payment" type="collection">
+        <element choice="3" label="Payment Method" mandatory="true" max_length="40" name="payment_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bank Transfer" sequence="0" value="bank_transfer"/>
+                <element inactive_on_update="false" label="Credit Card" sequence="1" value="credit_card"/>
+                <element inactive_on_update="false" label="Cash" sequence="2" value="cash"/>
+            </choice>
+        </element>
+        <element label="Payment Date" mandatory="true" max_length="40" name="payment_date" type="glide_date"/>
+        <element label="Notes" max_length="40" name="notes" type="string"/>
+        <element label="Amount Paid" mandatory="true" max_length="40" name="amount_paid" type="currency"/>
+        <element label="Payment Number" mandatory="true" max_length="40" name="payment_number" type="string"/>
+        <element label="Related Invoice" mandatory="true" max_length="32" name="related_invoice" reference="x_1640694_vendor_0_invoice" type="reference"/>
+        <index name="index">
+            <element name="related_invoice"/>
+        </index>
+    </element>
+</database>

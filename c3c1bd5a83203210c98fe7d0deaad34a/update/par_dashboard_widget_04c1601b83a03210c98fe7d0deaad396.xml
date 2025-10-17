@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">c8dd589383a03210c98fe7d0deaad30d</canvas>
+        <component display_value="Pie">96abe7e38d8790718022c5630a92176c</component>
+        <component_props>{"selectedElements":[],"showDataLabels":false,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":{},"colors":{},"colorConfig":{"type":"default"},"componentId":"j2v5l2xh","configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"allowRealTime":true,"filterQuery":"","dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1640694_vendor_0_payment","label":"Payment"}],"filterConfigurations":[],"groupBy":[{"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","groupByField":"related_invoice.vendor","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"metrics":[{"aggregateFunction":"SUM","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkyTnpJMU5ESTJPVFk9MTcxMjY3MjU0NDYxNg==","numberFormat":{"customFormat":false},"aggregateField":"amount_paid"}],"sortBy":"value","filterPerMetric":[],"headerTitle":"Total Payments Made"}</component_props>
+        <h>12</h>
+        <name>Untitled</name>
+        <stored_component display_value="Untitled">2681285783a03210c98fe7d0deaad340</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 18:20:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04c1601b83a03210c98fe7d0deaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Untitled</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name>par_dashboard_widget_04c1601b83a03210c98fe7d0deaad396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 18:20:15</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>3</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

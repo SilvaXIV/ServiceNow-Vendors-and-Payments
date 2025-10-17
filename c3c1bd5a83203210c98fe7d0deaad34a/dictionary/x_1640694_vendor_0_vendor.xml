@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4552799a83203210c98fe7d0deaad384" label="Vendor" max_length="40" name="x_1640694_vendor_0_vendor" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Contact Email" max_length="40" name="contact_email" type="string"/>
+        <element display="true" label="Vendor Name" mandatory="true" max_length="40" name="vendor_name" type="string"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+    </element>
+</database>

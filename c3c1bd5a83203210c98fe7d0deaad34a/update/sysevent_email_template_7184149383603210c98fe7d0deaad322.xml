@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>incident</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Hello Vendor Vendor Name: ${vendor.vendor_name},</p>
+<p>This is a reminder that your invoice Invoice Number: ${invoice_number} is due on Due Date: ${due_date}</p>
+<p>Please make payment soon to avoid any late fees.</p>
+<p>&nbsp;</p>
+<p>Thank you!</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Payment due within 30 days</name>
+        <sms_alternate/>
+        <subject>Payment due soon!</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 17:22:55</sys_created_on>
+        <sys_id>7184149383603210c98fe7d0deaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payment due within 30 days</sys_name>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name>sysevent_email_template_7184149383603210c98fe7d0deaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 17:22:55</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
