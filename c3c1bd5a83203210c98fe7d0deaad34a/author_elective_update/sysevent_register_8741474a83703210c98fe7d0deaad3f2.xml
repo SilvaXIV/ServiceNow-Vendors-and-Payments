@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_1640694_vendor_0.invoice.overdue</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>invoice.overdue</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:01:13</sys_created_on>
+        <sys_id>8741474a83703210c98fe7d0deaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1640694_vendor_0.invoice.overdue</sys_name>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name>sysevent_register_8741474a83703210c98fe7d0deaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 19:01:13</sys_updated_on>
+        <table>x_1640694_vendor_0_invoice</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</application>
+        <file_path/>
+        <instance_id>23d3a2e01b2e025c39a54089bd4bcb45</instance_id>
+        <instance_name>dev273257</instance_name>
+        <name>sysevent_register_8741474a83703210c98fe7d0deaad3f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><derived_priority>100</derived_priority><description/><event_name>x_1640694_vendor_0.invoice.overdue</event_name><fired_by/><priority>100</priority><queue/><suffix>invoice.overdue</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-26 19:01:13</sys_created_on><sys_id>8741474a83703210c98fe7d0deaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1640694_vendor_0.invoice.overdue</sys_name><sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package><sys_policy/><sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope><sys_update_name>sysevent_register_8741474a83703210c98fe7d0deaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-26 19:01:13</sys_updated_on><table>x_1640694_vendor_0_invoice</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-611248150</payload_hash>
+        <record_name>x_1640694_vendor_0.invoice.overdue</record_name>
+        <reverted_from/>
+        <source>14c0f45f83e03210c98fe7d0deaad34b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:01:13</sys_created_on>
+        <sys_id>7f61874a83703210c98fe7d0deaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a21e5655c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 19:01:13</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>f361874a317032103e847b170ac77f26</update_guid>
+        <update_guid_history>f361874a317032103e847b170ac77f26:-611248150</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:28:22</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>166a7a3469f5487684dcecc3a3934219</sys_id>
+        <sys_metadata>8741474a83703210c98fe7d0deaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1640694_vendor_0.invoice.overdue</sys_name>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_parent display_value="Vendor 0 Invoice">9204fd1e83203210c98fe7d0deaad34a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_scope_delete display_value="">02b6bbe1d3c640a580089ebb5f8c6759</sys_scope_delete>
+        <sys_update_name>sysevent_register_8741474a83703210c98fe7d0deaad3f2</sys_update_name>
+        <sys_update_version display_value="sysevent_register_8741474a83703210c98fe7d0deaad3f2">7f61874a83703210c98fe7d0deaad326</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 19:28:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

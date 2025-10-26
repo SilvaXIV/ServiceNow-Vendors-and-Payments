@@ -6,7 +6,7 @@
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <created_on>2025-10-17 18:03:02</created_on>
         <dashboard display_value="Vendors and Payments">ccddd49383a03210c98fe7d0deaad3a9</dashboard>
-        <edit_locked/>
+        <edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1760729187911"}</edit_locked>
         <enable_data_cache>false</enable_data_cache>
         <include_custom_insights>true</include_custom_insights>
         <include_key_contributors>true</include_key_contributors>
@@ -23,7 +23,7 @@
         <last_updated_on>2025-10-17 18:30:21</last_updated_on>
         <po_project_id_list>[]</po_project_id_list>
         <refresh_information>false</refresh_information>
-        <refresh_interval/>
+        <refresh_interval>-1</refresh_interval>
         <requested_by_user/>
         <schedule_repetition>false</schedule_repetition>
         <show_insights_panel>true</show_insights_panel>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>00dd589383a03210c98fe7d0deaad301</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_00dd589383a03210c98fe7d0deaad301</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-17 18:30:21</sys_updated_on>
+        <sys_updated_on>2025-10-17 19:26:27</sys_updated_on>
         <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
         <widgets_margin>$now-global-space--sm</widgets_margin>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1688000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>invoice__payment_due_soon</internal_name>
+        <label_cache>[{"name":"b2b35782-0b88-45ad-864d-d9b0c431b973.Records","label":"1 - Look Up Records➛Invoice Records","reference":"x_1640694_vendor_0_invoice","reference_display":"Invoice","type":"records","base_type":"records","usedInstances":{"b6127a5a-a542-4811-83cf-d1402ae5a3fe":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item","label":"2 - For Each➛Invoice Record","reference":"x_1640694_vendor_0_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.vendor.contact_email","label":"2 - For Each➛Invoice Record➛Vendor➛Contact Email","reference":"","reference_display":"Contact Email","type":"string","base_type":"string","parent_table_name":"x_1640694_vendor_0_vendor","column_name":"contact_email","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":["ah_to"]}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.invoice_number","label":"2 - For Each➛Invoice Record➛Invoice Number","reference":"","reference_display":"Invoice Number","type":"string","base_type":"string","parent_table_name":"x_1640694_vendor_0_invoice","column_name":"invoice_number","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":["ah_subject",null]}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.vendor.vendor_name","label":"2 - For Each➛Invoice Record➛Vendor➛Vendor Name","reference":"","reference_display":"Vendor Name","type":"string","base_type":"string","parent_table_name":"x_1640694_vendor_0_vendor","column_name":"vendor_name","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":[null]}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.due_date","label":"2 - For Each➛Invoice Record➛Due Date","reference":"","reference_display":"Due Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1640694_vendor_0_invoice","column_name":"due_date","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":[null]}}]</label_cache>
+        <master_snapshot>aeef0f0e83b03210c98fe7d0deaad340</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Invoice - Payment Due Soon</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7aef0f0e83b03210c98fe7d0deaad383</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:36:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee794fce83703210c98fe7d0deaad3d6</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Invoice - Payment Due Soon</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name>sys_hub_flow_ee794fce83703210c98fe7d0deaad3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:30</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-10-26 13:04:30">4bef0f0e83b03210c98fe7d0deaad3d5</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <published_version/>
+        <run_period/>
+        <run_start>2025-10-26 20:04:29</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7aef0f0e83b03210c98fe7d0deaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <time>1970-01-01 14:00:00</time>
+        <timer_type>11</timer_type>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:7aef0f0e83b03210c98fe7d0deaad383^sys_idNOT INb2ef0f0e83b03210c98fe7d0deaad384"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:7aef0f0e83b03210c98fe7d0deaad383</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2025-10-26 20:04:29</run_start>
+        <run_time>1970-01-01 14:00:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('7aef0f0e83b03210c98fe7d0deaad383');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_id>b2ef0f0e83b03210c98fe7d0deaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">7aef0f0e83b03210c98fe7d0deaad383</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ee794fce83703210c98fe7d0deaad3d6^sys_idNOT INa679c30683b03210c98fe7d0deaad3cd"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ee794fce83703210c98fe7d0deaad3d6</id>
+        <name>Invoice - Payment Due Soon</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:36:20</sys_created_on>
+        <sys_id>a679c30683b03210c98fe7d0deaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 19:36:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a679c30683b03210c98fe7d0deaad3cd"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ee794fce83703210c98fe7d0deaad3d6^sys_idNOT INa88943ce83703210c98fe7d0deaad34b"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">ee794fce83703210c98fe7d0deaad3d6</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:36:29</sys_created_on>
+        <sys_id>a88943ce83703210c98fe7d0deaad34b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:28</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnV6DsNG11K1AY6KEJ0Bi5BIGwIlc2geUjFOVEDfLvXUqMkTgVeOHs7uzMiHfPgqBDEo3YGYtiJYxLGB3QbgrI6J6MxjYtNQtOQ/JxEk2KI65EH73doQ0EiZt7oIFBHzVG0dRSrsQRaMSbafilmYsZHNjMWvjmKl/r71/lZ1nz+SQvGyn5cFUdDOmITjR39ysRIPJsyszPZ6XEUttzG3nhBvQFaiXVZs2flOtvF3V3uenqtd4A4hfuOxt7ry/9J4O37vApodOoT9Y/BBQR9LWj6dRx4HyXKCw8DeYvFqqIPbIhhUvxdG21GTjeaYHVwRuF1yEZ7xYkQUdlRnkarbtaHPBdYw8jpdsSMiPjwHwYsuasokjqbw7+8c/rwq1xs8FSJK+ATjdIKZpuTDjkv4CElolaCyEYt29D9EczD7MWW82xVT35R146mL2rQGXhFUcE1ZbxnzN8C9FkF7+ZhodfZvftw5j3Lj6K4nYxzQ0llK1BKg9rUNGE9IMXHF9f4sv9P0P3fhPeAgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ee794fce83703210c98fe7d0deaad3d6^sys_idNOT IN32cd474683b03210c98fe7d0deaad37a,83e90f0683b03210c98fe7d0deaad3df"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">ee794fce83703210c98fe7d0deaad3d6</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>b6127a5a-a542-4811-83cf-d1402ae5a3fe</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:55:12</sys_created_on>
+        <sys_id>32cd474683b03210c98fe7d0deaad37a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:28</sys_updated_on>
+        <ui_id>8d73498d-4aa6-477a-82b3-cdb03a80d202</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=32cd474683b03210c98fe7d0deaad37a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">ee794fce83703210c98fe7d0deaad3d6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:38:17</sys_created_on>
+        <sys_id>83e90f0683b03210c98fe7d0deaad3df</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:28</sys_updated_on>
+        <ui_id>b2b35782-0b88-45ad-864d-d9b0c431b973</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VXXU/bMBT9K12eNimqElo66NsEQuIBKgHihTHLiZ3Gm2tnttMPEP9917GTlrZAKRWDx1zfj3OPz711b+4DRoJ+cJB1owjH+wffo6jTiaJer5PiOEk6vTSJkm4ShIHAIwqeBiecwucY89J+T1Hc60a9wy4aU0GkQhFiYixZap0I0wXHs2vve9ocpDnjRFER9G9uw6DACpIbqoL+/dKRmRUUcZxQDvFXtnbr3AIJN8b9KHi1D1ug/kTCpZaKWCxRGNCpga4olMow1zQMRlgQbKSaNRZFMRkIPjfkTBjIGFjnqWZ3kP4gsn4ZhbZS6s6aT+RJcuY0twwNCsOkcBYH1B1KXo7EuWvA0kszXHJT0wuWUkM+WljMFoRHlF3mcnJRFzxhomrPH3KZYt58YWMUS0pDtb0LyukIEqERLgomhqhQcsyqYMAyag85fLQzLidQVLOhaOPUAm8DRbh9AvbjynyNFbNdnEEaCAZAjMNtI0e6lqWqWBmjlJe6OlBYaJcreKi4Qn9Li9J17ftDjiJw0KlihfkBAWPqW3kIN5L2fjSXRCoFYbamXtC3NtiU+svPEqJJgRn5RUrgGBtamVJ38BuPsQPRH+o2wBtk56CdMylM/vXb6iTsKOt2Y3S02OemHK0NXkecH6hHNj9Q8c4GCuD+p5Eyqvx4E/XSjLiGXxiU9PuzItif37eWyiDH3MKkrKp8a4WeMMrJo0W/Abg6eGDF1kpmT+H1As1sjaWNv/fpN/4b5ZkR5HhhgjNR/TBCQijzgXUbPb+8Dpd0UF3/wn63Ntiyq+rFLSNbd9tv2dy/dTYFWQdeAqLWlUO5Bni9X+v0XrqdnUm3s/c66YJwbu4b9A1rawiu31X26mr/O+uPl/1BRAsB8cNtI/2j7WrGr625Z2suzWbnVcO5qCx3cvyEwHb8anvnIQ5twRxCfT3khhVNGBlSM69eexFpJpj/WXfu1dXMUNXem1+A3WdnrxfP5wxmACmq4aoWn4AxPDZW10McOvN22+FUGDqsyNsUYh15hqetiwbjWuB+RbCmhtd0d4fvr/f4eauJXzs9Nf+f4i/PthK+/QexkRZ1oQ8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=83e90f0683b03210c98fe7d0deaad3df"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ee794fce83703210c98fe7d0deaad3d6^sys_idNOT IN136dc30683b03210c98fe7d0deaad3d9"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2aefcb0e83b03210c98fe7d0deaad3aa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">ee794fce83703210c98fe7d0deaad3d6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:53:36</sys_created_on>
+        <sys_id>136dc30683b03210c98fe7d0deaad3d9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:28</sys_updated_on>
+        <ui_id>b6127a5a-a542-4811-83cf-d1402ae5a3fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51Ty27bMBD8F55tQQ/HkXwLUATIIQ2QBrkUgcDHyiZCkSwfdlRB/96lJTtFTkVP4s7uzs5wqZGYGGwM/sXceS/3mux+vq2I1AnD80ikIDtSNKJrirzhVbmtyjwv603BthUrSlFREFuyIpr2gJUyQO8xPFIVUzyOrGTVzW1drnNW1+vNDRXrersRa9GwnG+qgjW3VfYM3DjhpwlbhfRW0eH1/xn4QSrhYDFjqUNtARzZjV9SYbDQKspA4aCFAfv/1fOl82Ex/eUOEjuG7sqLn6SizFcEPgJoATioo8rDivRUCxqMG8guuIiAAyqetBquFQepA9KRVPvh5W/kLvI8FXaAjjjMyWvYLhc5w/xgJIcnG6TRMxIoU0sPNyr2+vssP60AOhpVuKwAkeiRD2zSnFQskrofB3N6vgy8l/rsb0kqw6m6RjQEJ1kM4NMaQEGPRG1PrZV631pnjvLcjFr6bK8wyDplTjg0PcuM8iQ8wyui2T3i387wK3UyuXhEGmyezu7bXzHNnX0sitvZNBZ47qQNd0h3hEXc9Jbe68zk54chgEuPA18S9nD5G1JiwCVL/jd0Mu49Sf3Epj9jWwitVwMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ee794fce83703210c98fe7d0deaad3d6^sys_idNOT IN335e4b8a83b03210c98fe7d0deaad3e2,b75e4b8a83b03210c98fe7d0deaad3e2,f35e4b8a83b03210c98fe7d0deaad3e2"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ee794fce83703210c98fe7d0deaad3d6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.due_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:57:44</sys_created_on>
+        <sys_id>335e4b8a83b03210c98fe7d0deaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 19:57:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7dff51b6-6519-4b9e-a99c-00154aae766f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ee794fce83703210c98fe7d0deaad3d6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.vendor.vendor_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:57:44</sys_created_on>
+        <sys_id>b75e4b8a83b03210c98fe7d0deaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 19:57:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ed236d04-6471-4665-b7aa-2d946ef86821</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ee794fce83703210c98fe7d0deaad3d6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.invoice_number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 19:57:44</sys_created_on>
+        <sys_id>f35e4b8a83b03210c98fe7d0deaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 19:57:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d51da886-83b4-429d-ad39-29f026ffbd57</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ee794fce83703210c98fe7d0deaad3d6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>invoice__payment_due_soon</internal_name>
+        <label_cache>[{"name":"b2b35782-0b88-45ad-864d-d9b0c431b973.Records","label":"1 - Look Up Records➛Invoice Records","reference":"x_1640694_vendor_0_invoice","reference_display":"Invoice","type":"records","base_type":"records","usedInstances":{"b6127a5a-a542-4811-83cf-d1402ae5a3fe":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item","label":"2 - For Each➛Invoice Record","reference":"x_1640694_vendor_0_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.vendor.contact_email","label":"2 - For Each➛Invoice Record➛Vendor➛Contact Email","reference":"","reference_display":"Contact Email","type":"string","base_type":"string","parent_table_name":"x_1640694_vendor_0_vendor","column_name":"contact_email","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":["ah_to"]}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.invoice_number","label":"2 - For Each➛Invoice Record➛Invoice Number","reference":"","reference_display":"Invoice Number","type":"string","base_type":"string","parent_table_name":"x_1640694_vendor_0_invoice","column_name":"invoice_number","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":["ah_subject",null]}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.vendor.vendor_name","label":"2 - For Each➛Invoice Record➛Vendor➛Vendor Name","reference":"","reference_display":"Vendor Name","type":"string","base_type":"string","parent_table_name":"x_1640694_vendor_0_vendor","column_name":"vendor_name","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":[null]}},{"name":"b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.due_date","label":"2 - For Each➛Invoice Record➛Due Date","reference":"","reference_display":"Due Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1640694_vendor_0_invoice","column_name":"due_date","usedInstances":{"8d73498d-4aa6-477a-82b3-cdb03a80d202":[null]}}]</label_cache>
+        <master>true</master>
+        <name>Invoice - Payment Due Soon</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Invoice - Payment Due Soon">ee794fce83703210c98fe7d0deaad3d6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aeef0f0e83b03210c98fe7d0deaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:28</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=aeef0f0e83b03210c98fe7d0deaad340^sys_idNOT INa6ef0f0e83b03210c98fe7d0deaad341"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>aeef0f0e83b03210c98fe7d0deaad340</id>
+        <name>Invoice - Payment Due Soon</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:28</sys_created_on>
+        <sys_id>a6ef0f0e83b03210c98fe7d0deaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a6ef0f0e83b03210c98fe7d0deaad341"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=aeef0f0e83b03210c98fe7d0deaad340^sys_idNOT IN66ef0f0e83b03210c98fe7d0deaad34c"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">aeef0f0e83b03210c98fe7d0deaad340</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_id>66ef0f0e83b03210c98fe7d0deaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnV6DsNG11K1AY6KEJ0Bi5BIGwIlc2geUjFOVEDfLvXUqMkTgVeOHs7uzMiHfPgqBDEo3YGYtiJYxLGB3QbgrI6J6MxjYtNQtOQ/JxEk2KI65EH73doQ0EiZt7oIFBHzVG0dRSrsQRaMSbafilmYsZHNjMWvjmKl/r71/lZ1nz+SQvGyn5cFUdDOmITjR39ysRIPJsyszPZ6XEUttzG3nhBvQFaiXVZs2flOtvF3V3uenqtd4A4hfuOxt7ry/9J4O37vApodOoT9Y/BBQR9LWj6dRx4HyXKCw8DeYvFqqIPbIhhUvxdG21GTjeaYHVwRuF1yEZ7xYkQUdlRnkarbtaHPBdYw8jpdsSMiPjwHwYsuasokjqbw7+8c/rwq1xs8FSJK+ATjdIKZpuTDjkv4CElolaCyEYt29D9EczD7MWW82xVT35R146mL2rQGXhFUcE1ZbxnzN8C9FkF7+ZhodfZvftw5j3Lj6K4nYxzQ0llK1BKg9rUNGE9IMXHF9f4sv9P0P3fhPeAgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=aeef0f0e83b03210c98fe7d0deaad340^sys_idNOT IN2aef0f0e83b03210c98fe7d0deaad349,2aef0f0e83b03210c98fe7d0deaad34b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">aeef0f0e83b03210c98fe7d0deaad340</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_id>2aef0f0e83b03210c98fe7d0deaad349</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <ui_id>b2b35782-0b88-45ad-864d-d9b0c431b973</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXXU/bMBT9K12eNimqElo66NsEQkICKgHihTHLSZzWm2tnttMPqv73XcdOmrWBtVKQQHv0/bDPPfcex3lceTTxht5J2g8CHB6ffA2CXi8IBoNejMMo6g3iKIj6ked7HE8JRGocMQLLGWa5WS9QOOgHg9M+mhGeCIkCRPlM0NgEJVRlDC8fXOxl5YgnlCWScG/4+OR7GZawuSbSG662XPuiYzgiDELvHbwttHqZVUtU+Kztqp7WubEOIRMDJfA9stBQFAEMKWaK+N4U8wRrIZeVRRKcjDjbGCaUa9jRM8ELRZ/h3JPAxKUEqoqJ9VVL5Diy5vQca3ynZR7rXLrQeGJIU5aPhKQ4Z/qsbrMBo0xTwW2KLdtmC5ZP+Y2lw6s2KFsCllwBCJKZQg1yV0Z6NxHz2xLlBeUFJ87JRIxZtcJaSxrl2uBZeYSRKWyEpjjLKB+jTIoZLZIBy7Q7ZrDopkzM4VBFx7yLYwO8C7zi7gXYzwvzA5bUVHEN20AyAKIMJgTZFiqRy4LKGYpZrgqHxFzZvby176mlOmNYqU3lQDn6nRvclgdXMbKkmZRY0kx/gy1mxBW39vcSyHGwGblY8IQaFKqmEqWxztWn7zlkJxmmyY8kB9axJoUpto6feIYtiOFYdQHeKL2BEbwWXE8+f9nVU0u7tinGgolSjGd1KprocbLcsV01beBkGbYmS6jjIwkTDn9/ujxcaZaCf8gt/vrqkB1v5kkJqZHlsqa3Xa0cPOd7QCjnfGQmsxMtX0LlxjylhCVNX58L49j6+hz9n1+fdznkAChBtnuUM8qLpwQAfavpD16/Yk+35qwYr9q3xtjgxt/VAO5o0Xk+WAl7wCmVcAdnd+4tngaI5X0/cc/Av+760ugE0GtNAL2jdgSwqsqsiGzgvHw9mm6W8c8mHm/HwwjWEsJ1k8AOOjM89Myj9a6AewcpuD5s1nP+wsy1/Mx8QZH+W14BE0h15yGrXzSnyZjozellVCL0HLNfTX43cahsVFHeGzxZ+6/KdhBuJApKQZIoaF79zRrC82j3Dgl9az7sCtkDS0nHNV50biswjQjdNQJKJ+OiN/V75LKyuiHvt/hgfLdf0rJZjRose/Yh/vTaE8LTH1b+DVHeEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2aef0f0e83b03210c98fe7d0deaad349"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">aeef0f0e83b03210c98fe7d0deaad340</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>b6127a5a-a542-4811-83cf-d1402ae5a3fe</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_id>2aef0f0e83b03210c98fe7d0deaad34b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <ui_id>8d73498d-4aa6-477a-82b3-cdb03a80d202</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2aef0f0e83b03210c98fe7d0deaad34b"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=aeef0f0e83b03210c98fe7d0deaad340^sys_idNOT INe2ef0f0e83b03210c98fe7d0deaad348"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2aefcb0e83b03210c98fe7d0deaad3aa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Invoice - Payment Due Soon">aeef0f0e83b03210c98fe7d0deaad340</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:28</sys_created_on>
+        <sys_id>e2ef0f0e83b03210c98fe7d0deaad348</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:28</sys_updated_on>
+        <ui_id>b6127a5a-a542-4811-83cf-d1402ae5a3fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TTW+jMBD9Lz4TxEeaQm5Vq0qVulsprXpZVWiwTWLV2KxtkrKI/77j4NCqp9WeYN58vfcYRqJ71/XOvugba8Veke2vt4gI5TF8H4lgZEvSkjVlmpQ0zzZ5liRZsU7rTV6nGcuBsw2JiIKWY6VwvLUYHkH2Ph7HOqvzq+siWyV1UazWV8BWxWbNVqysE7rO07q8zuMdp9owO03YyoTtJAyv/z+BHoRkhgcxHRjk5rgh2/Fb6l/FSai5xNKHoO6bWDd0PjQzhQA8hp7dguLDk8iSiPAPxxXjuL4BaXlEWlAMnDYD2TrTI2A4sCclh6XiIJTDccTXfljxBzemSeILG46CKJ+TS1gFH2e4uQMHzziaut6EUnrQgnI7W8F4A710t1+xueCpc0KrucVBLS/dWvat+jk7QZYBl8+GSG+RBO+8UE896GieD/q0u7C8F+psSkhKTUEuEThnRN07z2ckXPIWB1UtdJ1Q+6oz+ijOzciljfcSg7iR+oRL/SnHQD3xGH2F+B7xuzP8CkZ4FT9wDDZPEbGDvZVg7acWNLH63Xsms7KgoZpt8C3UiM7d4IIjD3SnN3/18+zFUyosUnjx2MPln/KJAS9I0K/QSZt3T/4Tm/4ClXPMn50DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aeef0f0e83b03210c98fe7d0deaad340^sys_idNOT IN6aef0f0e83b03210c98fe7d0deaad34c,e6ef0f0e83b03210c98fe7d0deaad34c,eaef0f0e83b03210c98fe7d0deaad34c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>aeef0f0e83b03210c98fe7d0deaad340</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.invoice_number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_id>6aef0f0e83b03210c98fe7d0deaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d51da886-83b4-429d-ad39-29f026ffbd57</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>aeef0f0e83b03210c98fe7d0deaad340</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.due_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_id>e6ef0f0e83b03210c98fe7d0deaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7dff51b6-6519-4b9e-a99c-00154aae766f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>aeef0f0e83b03210c98fe7d0deaad340</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b6127a5a-a542-4811-83cf-d1402ae5a3fe.item.vendor.vendor_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_id>eaef0f0e83b03210c98fe7d0deaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ed236d04-6471-4665-b7aa-2d946ef86821</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aeef0f0e83b03210c98fe7d0deaad340"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>ee794fce83703210c98fe7d0deaad3d6</sys_id>
+        <latest_snapshot>aeef0f0e83b03210c98fe7d0deaad340</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ee794fce83703210c98fe7d0deaad3d6^sys_idNOT INf2ef0f0e83b03210c98fe7d0deaad392"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>ee794fce83703210c98fe7d0deaad3d6</plan_id>
+        <snapshot>aeef0f0e83b03210c98fe7d0deaad340</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-26 20:04:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2ef0f0e83b03210c98fe7d0deaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-26 20:04:29</sys_updated_on>
+        <trigger display_value="">7aef0f0e83b03210c98fe7d0deaad383</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ee794fce83703210c98fe7d0deaad3d6"/>
+</record_update>

@@ -27,20 +27,24 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
     // Ensure there's a due date
     if (!current.due_date)
         return;
 
-    // Create GlideDateTime objects for comparison
     var now = new GlideDateTime();
     var due = new GlideDateTime(current.due_date);
 
-    // Compare dates
-    if (now.after(due)) {
+    // Only update if due date is in the past and status isn't already Overdue
+   if (now.after(due) && current.status != 'Overdue') {
         current.status = 'Overdue';
-        gs.info('Invoice ' + current.number + ' marked as Overdue automatically.');
+        current.update(); // Save change
+
+        // Fire the event for the notification
+        gs.eventQueue('invoice.overdue', current, current.vendor.contact_email, '');
+
+        gs.info('DEBUG: Invoice ' + current.getDisplayValue('vendor') + ' marked as Overdue and event fired.');
     }
 
 })(current, previous);]]></script>
@@ -50,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>18938a5283a03210c98fe7d0deaad379</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Mark Overdue Invoices</sys_name>
         <sys_overrides/>
         <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
@@ -58,7 +62,7 @@
         <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
         <sys_update_name>sys_script_18938a5283a03210c98fe7d0deaad379</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-14 23:01:58</sys_updated_on>
+        <sys_updated_on>2025-10-26 19:04:26</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
