@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Vendor Dashboard - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="vendor_dashboard">f0f88e0983013210c98fe7d0deaad393</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 22:44:38</sys_created_on>
+        <sys_id>28eac6c983013210c98fe7d0deaad38a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vendor Dashboard - Container 2</sys_name>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_update_name>sp_container_28eac6c983013210c98fe7d0deaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 22:49:45</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</application>
+        <file_path/>
+        <instance_id>23d3a2e01b2e025c39a54089bd4bcb45</instance_id>
+        <instance_name>dev273257</instance_name>
+        <name>sp_container_28eac6c983013210c98fe7d0deaad38a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Vendor Dashboard - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="vendor_dashboard">f0f88e0983013210c98fe7d0deaad393</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-04 22:44:38</sys_created_on><sys_id>28eac6c983013210c98fe7d0deaad38a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Vendor Dashboard - Container 2</sys_name><sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package><sys_policy/><sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope><sys_update_name>sp_container_28eac6c983013210c98fe7d0deaad38a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-04 22:49:45</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1051140956</payload_hash>
+        <record_name>Vendor Dashboard - Container 2</record_name>
+        <reverted_from/>
+        <source>14c0f45f83e03210c98fe7d0deaad34b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 22:49:45</sys_created_on>
+        <sys_id>db0c4ac983013210c98fe7d0deaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a510fdbdc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 22:49:45</sys_updated_on>
+        <type>Container</type>
+        <update_guid>9f0c4ac965013210e341796b95de5946</update_guid>
+        <update_guid_history>9f0c4ac965013210e341796b95de5946:-1051140956,a8eac6c93a0132109f0e1b4da2de978c:-1684723867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vendor Dashboard - Container 2">fe3c4ac983013210c98fe7d0deaad34a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 22:50:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>94aa9e8ca3cd4f8088eb932c5418a100</sys_id>
+        <sys_metadata>28eac6c983013210c98fe7d0deaad38a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Dashboard - Container 2</sys_name>
+        <sys_package display_value="Vendor and Payment Tracker" source="x_1640694_vendor_0">c3c1bd5a83203210c98fe7d0deaad34a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vendor and Payment Tracker">c3c1bd5a83203210c98fe7d0deaad34a</sys_scope>
+        <sys_scope_delete display_value="">02b6bbe1d3c640a580089ebb5f8c6759</sys_scope_delete>
+        <sys_update_name>sp_container_28eac6c983013210c98fe7d0deaad38a</sys_update_name>
+        <sys_update_version display_value="sp_container_28eac6c983013210c98fe7d0deaad38a">db0c4ac983013210c98fe7d0deaad347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 22:50:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
